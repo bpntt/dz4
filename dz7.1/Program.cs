@@ -1,0 +1,4 @@
+﻿int [] StringToArray(string text)
+{
+
+}
