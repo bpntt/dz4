@@ -1,6 +1,6 @@
 ﻿// хотел сделать через общий метод и отдельные методы для ввода - не получилось. дз 1.1 рабочее 
 
-ouble NumberA(string text)
+double NumberA(string text)
 {
     Console.WriteLine(text);
     double a = Convert.ToDouble(Console.ReadLine());
@@ -32,8 +32,8 @@ double NumberB(string text2)
 }  */
 double AXB(double z, double r)
   {
-    int sum = 1;
-    int i = 0;
+    double sum = 1;
+    double i = 0;
     while (i <= z)
     {
         sum = sum * r;
